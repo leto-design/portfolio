@@ -1,7 +1,13 @@
+---
+title: Приветствую!
+tags:
+  - main
+---
 Test page of Quartz
 
 Some changes
 
+![[img/img.png|100]]
 # Callouts:
 [Use callouts - Obsidian Help](https://help.obsidian.md/How+to/Use+callouts)
 
@@ -85,6 +91,7 @@ Resized to 200px wide
 ```md
 ![[img.png|200]]
 ```
+
 
 
 # Embed
