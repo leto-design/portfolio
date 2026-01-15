@@ -5,7 +5,7 @@ on:
     branches:
       - v4
 env:
-  THEME_NAME: cupertino
+  THEME_NAME: baseline
 
 permissions:
   contents: read
