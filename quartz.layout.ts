@@ -23,8 +23,14 @@ export const defaultContentPageLayout: PageLayout = {
     Component.ArticleTitle(),
     Component.Flex({
       components: [
-        { Component: Component.ContentMeta() },
-        { Component: Component.Darkmode() },
+        { 
+          Component: Component.ContentMeta(),
+          grow: true,
+        },
+        { 
+          Component: Component.Darkmode(),
+          align: "center", 
+        },
       ],
     }),
     Component.TagList(),
@@ -42,8 +48,14 @@ export const defaultListPageLayout: PageLayout = {
     Component.ArticleTitle(),
     Component.Flex({
       components: [
-        { Component: Component.ContentMeta() },
-        { Component: Component.Darkmode() },
+        { 
+          Component: Component.ContentMeta(),
+          grow: true,
+        },
+        { 
+          Component: Component.Darkmode(),
+          align: "center", 
+        },
       ],
     }),
   ],
