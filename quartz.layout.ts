@@ -25,11 +25,10 @@ export const defaultContentPageLayout: PageLayout = {
         { 
           Component: Component.ArticleTitle(),
           grow: true,
-          align: "center",
         },
         { 
           Component: Component.Darkmode(),
-          align: "center", 
+          align: "end", 
         },
       ],
     }),
@@ -51,11 +50,10 @@ export const defaultListPageLayout: PageLayout = {
         { 
           Component: Component.ArticleTitle(),
           grow: true,
-          align: "center",
         },
         { 
           Component: Component.Darkmode(),
-          align: "center", 
+          align: "end", 
         },
       ],
     }),
