@@ -1,8 +1,15 @@
 ---
-title: Приветствую!
+title: Сергей Лето
 tags:
   - main
 ---
+[[Some text link]]
+
+## [[МТС IoT Hub]]
+[![[img/iot-cover.png]]](<МТС IoT Hub.md>)
+
+
+
 Test page of Quartz
 
 Some changes
@@ -180,4 +187,4 @@ To have the image scale according to its aspect ratio, omit the height `![[imag
 | **Bold** | *Italic* | ~~Strikethrough~~ | 
 | ![[muologo.jpg]] | [Link](https://obsidian.md) | `<div> code! </div>` |
 
-[[Some text link]]
+

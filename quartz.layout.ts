@@ -20,12 +20,12 @@ export const defaultContentPageLayout: PageLayout = {
       component: Component.Breadcrumbs(),
       condition: (page) => page.fileData.slug !== "index",
     }),
-    Component.ArticleTitle(),
     Component.Flex({
       components: [
         { 
-          Component: Component.ContentMeta(),
+          Component: Component.ArticleTitle(),
           grow: true,
+          align: "center",
         },
         { 
           Component: Component.Darkmode(),
@@ -33,6 +33,7 @@ export const defaultContentPageLayout: PageLayout = {
         },
       ],
     }),
+    Component.ContentMeta(),
     Component.TagList(),
   ],
   left: [
@@ -45,12 +46,12 @@ export const defaultContentPageLayout: PageLayout = {
 export const defaultListPageLayout: PageLayout = {
   beforeBody: [
     Component.Breadcrumbs(),
-    Component.ArticleTitle(),
     Component.Flex({
       components: [
         { 
-          Component: Component.ContentMeta(),
+          Component: Component.ArticleTitle(),
           grow: true,
+          align: "center",
         },
         { 
           Component: Component.Darkmode(),
@@ -58,6 +59,7 @@ export const defaultListPageLayout: PageLayout = {
         },
       ],
     }),
+    Component.ContentMeta(),
   ],
   left: [],
   right: [],
